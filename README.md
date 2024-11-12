@@ -1,0 +1,1 @@
+# tech-challenge-estabelecimento-lambda-authorizer
