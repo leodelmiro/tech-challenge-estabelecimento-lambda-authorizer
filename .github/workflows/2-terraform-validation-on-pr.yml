@@ -1,0 +1,25 @@
+name: 2 - [FEAT] Terraform Format and Validate
+
+on:
+  pull_request:
+    branches:
+      - "develop"
+
+jobs:
+  terraform-fmt-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v3
+      - name: Terraform Format Check
+        run: terraform fmt -check -recursive infra/
+      - name: Terraform Format
+        if: failure()
+        run: terraform fmt -recursive infra/
+      - name: Terraform Init and Validate
+        shell: bash
+        run: |
+          cd infra
+          terraform init
+          terraform validate
