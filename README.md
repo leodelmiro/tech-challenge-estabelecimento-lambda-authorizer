@@ -30,10 +30,6 @@ Este repositório é referente ao Lambda Authorizer.
 - AWS
 - NodeJS (Lambda)
 
-## Desenho Database
-
-![Entidade Relacionamento](./desenhos/db-entidade-relacionamento.drawio.png)
-
 ## Estrutura do Projeto
 
 - .github: Arquivos com as actions.
