@@ -1,3 +1,5 @@
+import http from 'http';
+
 const url = process.env.ALB_EKS ?? "localhost:8080"
 
 export const lambdaHandler = async (event) => {
@@ -20,7 +22,7 @@ const callExternalEndpoint = (cpf) => {
       method: 'GET',
     };
 
-    const req = https.request(options, (res) => {
+    const req = http.request(options, (res) => {
       resolve(res.statusCode === 200);
     });
 
