@@ -1,3 +1,5 @@
+import http from 'http';
+
 const url = process.env.ALB_EKS ?? "localhost:8080"
 
 export const lambdaHandler = async (event) => {
