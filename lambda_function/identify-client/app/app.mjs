@@ -5,7 +5,7 @@ export const lambdaHandler = async (event) => {
   if (!cpf || cpf == "false") return generatePolicy('user', 'Allow', '*');;
 
   try {
-    const isAuthorized = await callExternalEndpoint(token);
+    const isAuthorized = await callExternalEndpoint(cpf);
     return generatePolicy('user', isAuthorized ? 'Allow' : 'Deny', '*');
   } catch (error) {
     return generatePolicy('user', 'Deny', '*');
