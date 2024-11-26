@@ -21,7 +21,7 @@ Este repositório é referente ao Lambda Authorizer.
 
 - https://github.com/leodelmiro/tech-challenge-estabelecimento-app
 - https://github.com/leodelmiro/tech-challenge-estabelecimento-infra
-- https://github.com/leodelmiro/tech-challenge-estabelecimento-lambda-authorizer
+- https://github.com/leodelmiro/tech-challenge-estabelecimento-db
 - https://github.com/leodelmiro/tech-challenge-estabelecimento-gtw
 
 ## Tecnologias Utilizadas
