@@ -12,10 +12,9 @@
 
 ## Breve Descrição
 
-Aplicação se trata de um Projeto Fiap Tech Challenge - Software Architecture, simulando um projeto de um estabelecimento
-de pedidos (fast-food).
+Aplicação se trata de um Projeto Fiap Tech Challenge - Software Architecture, simulando um projeto de um estabelecimento de pedidos (fast-food).
 
-Este repositório é referente ao Lambda Authorizer do GW (https://github.com/leodelmiro/tech-challenge-estabelecimento-gtw).
+Este repositório é referente ao Lambda Authorizer do GTW (https://github.com/leodelmiro/tech-challenge-estabelecimento-gtw).
 
 ### Demais repositórios
 
